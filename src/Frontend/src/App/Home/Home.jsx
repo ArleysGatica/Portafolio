@@ -1,10 +1,17 @@
 import React from 'react';
+import './Home.css';
 import { Header } from '../Components/Header/Header';
+import { Perfil } from '../perfil/Perfil';
 
 const Home = () => {
   return (
     <>
-      <Header />
+      <div className='Home-Container-Header'>
+        <Header />
+      </div>
+      <div className='Home-Container-Perfil'>
+        <Perfil />
+      </div>
     </>
   );
 };
