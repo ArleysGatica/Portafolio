@@ -1,0 +1,38 @@
+.header {
+  width: 100vw;
+  height: 7vh;
+  z-index: 100;
+  background-color: rgb(14, 75, 155);
+  position: fixed;
+}
+
+.Container-header {
+  max-width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  margin: 10px;
+}
+
+.nav ul li {
+  list-style: none;
+  margin: 0px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav ul li a:hover {
+  border-bottom: rgba(0, 255, 106, 0.582) 3px solid;
+}
