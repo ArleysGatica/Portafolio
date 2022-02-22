@@ -3,6 +3,7 @@ import './Home.css';
 import { Header } from '../Components/Header/Header';
 import { Perfil } from '../perfil/Perfil';
 import { Skllis } from '../Components/Skllis/Skllis';
+import { Footer } from '../Components/Footer/Footer';
 
 const Home = () => {
   return (
@@ -25,6 +26,9 @@ const Home = () => {
           Una de mis mayores motivaciones es aprender, ser autodidacta, responsable en diseñar y desarrollar. Haber participado en desarrollo de proyectos en equipo con diferentes lenguajes de programacion y diversas tecnologias para el desarrollo de software o aplicaciones.
           Con amplitud a llenarme de mas conocimientos y habilidades. Cada dia trato de aprender algo nuevo; me mantengo siempre actualizado para poder lograr converirme en un Full-Stack developer.
         </span>
+      </div>
+      <div className='Home-Container-Footer'>
+        <Footer />
       </div>
     </>
   );

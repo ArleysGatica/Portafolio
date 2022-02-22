@@ -32,7 +32,7 @@ export const Perfil = () => {
           </a>
           <a
             rel="noreferrer"
-            href="https://mail.google.com/mail/u/0/#inbox"
+            href="mailto:gatica.arleys16@gmail.com?subject=Desde_Portafolio&body=Hola%20Arleys%20Gatica%20"
             target="_blank"
           >
             <img src={gmail} alt="" />
