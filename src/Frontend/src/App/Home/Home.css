@@ -2,7 +2,6 @@
   width: 100%;
   height: 100%;
   display: flex;
-  background: transparent;
 }
 
 .Home-Container-Perfil {
@@ -13,4 +12,20 @@
   width: 100%;
   height: 100%;
   border-radius: 30px;
+}
+
+.info-text {
+  width: 95%;
+  height: 200px;
+  margin: auto;
+  margin-top: 35px;
+  box-shadow: 0px 0px 10px #000;
+}
+
+.info-text span {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-align-last: center;
 }

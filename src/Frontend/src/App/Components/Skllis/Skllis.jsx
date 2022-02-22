@@ -68,7 +68,6 @@ export const Skllis = () => {
           </div>
         </div>
       </div>
-      <h1>marios</h1>
     </>
   );
 };
