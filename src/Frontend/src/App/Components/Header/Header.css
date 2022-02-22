@@ -31,9 +31,9 @@
 
 .nav ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .nav ul li a:hover {
-  border-bottom: rgba(0, 255, 106, 0.582) 3px solid;
+  border-bottom: rgb(253, 253, 253) 3px solid;
 }

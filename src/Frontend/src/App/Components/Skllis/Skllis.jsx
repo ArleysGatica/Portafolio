@@ -5,15 +5,15 @@ export const Skllis = () => {
   const skllisimages = require.context('../../Images', true)
   return (
     <>
-      <div className="Container-title">
+      <div className="Container-title-Skllis">
         <h1>Proyectos</h1>
       </div>
       <div className="Skllis-Container">
-        <img src={skllisimages('./front.png')} alt="" />
         <img src={skllisimages('./react-pr.png')} alt="" />
         <img src={skllisimages('./react-pr.png')} alt="" />
         <img src={skllisimages('./react-pr.png')} alt="" />
-        <img src={skllisimages('./front.png')} alt="" />
+        <img src={skllisimages('./react-pr.png')} alt="" />
+        <img src={skllisimages('./react-pr.png')} alt="" />
         <img src={skllisimages('./react-pr.png')} alt="" />
         <img src={skllisimages('./react-pr.png')} alt="" />
         <img src={skllisimages('./react-pr.png')} alt="" />
@@ -57,6 +57,10 @@ export const Skllis = () => {
           <div className="Dev-1">
             <img src={skllisimages('./visualcode.png')} alt="" />
             <h4 className="h4">Visual Code</h4>
+          </div>
+          <div className="Dev-1">
+            <img src={skllisimages('./figma.png')} alt="" />
+            <h4 className="h4">Figma</h4>
           </div>
           <div className="Dev-1">
             <img src={skllisimages('./npm.png')} alt="" />

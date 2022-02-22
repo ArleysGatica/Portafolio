@@ -1,5 +1,5 @@
 import React from 'react';
-import clientela from '../Images/clientela.png';
+import yo from '../Images/yo2.jpg';
 import github from '../Images/github.png';
 import linkedin from '../Images/linkedin.png';
 import gmail from '../Images/gmail.png';
@@ -12,15 +12,14 @@ export const Perfil = () => {
       <div className='Container'>
 
         <div className='Container-img'>
-          <img src={clientela} alt="" />
+          <img src={yo} alt="" />
         </div>
-
         <div className='Container-title'>
-          <h1>Arleys Dionisio Manzanares Gatica</h1>
+          <h1>Arleys Manzanares Gatica</h1>
         </div>
         <div className='Container-description'>
           <p>
-            Information system engineer | Web Developer Frontend
+            Systems engineer | Web Developer Frontend
           </p>
         </div>
         <div className='Container-Redes-info'>
