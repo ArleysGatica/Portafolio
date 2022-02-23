@@ -6,7 +6,7 @@ export const Skllis = () => {
   return (
     <>
       <div className="Container-title-Skllis">
-        <h1>Proyectos</h1>
+        <h1 >Proyectos</h1>
       </div>
       <div className="Skllis-Container">
         <img src={skllisimages('./react-pr.png')} alt="" />
@@ -19,7 +19,7 @@ export const Skllis = () => {
         <img src={skllisimages('./react-pr.png')} alt="" />
       </div>
       <div className="Container-info">
-        <h1>Conocimientos</h1>
+        <h1 id='dev'>Conocimientos</h1>
         <h1 >DevTools</h1>
       </div>
       <div className="Container-main">

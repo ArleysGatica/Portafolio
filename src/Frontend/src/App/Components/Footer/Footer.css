@@ -27,6 +27,10 @@
   margin-bottom: 10px;
 }
 
+#sobremi {
+  transition: all 0.5s;
+}
+
 .Container-footer-whatsapp button {
   color: black;
   font-weight: bold;
