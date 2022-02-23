@@ -1,5 +1,23 @@
+.Container-title-Studies {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+.Studies-Container {
+  columns: 3 220px;
+  column-gap: 25px;
+  width: 85%;
+  margin: 0 auto;
+}
+
 .Studies-Container img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+  display: block;
+  object-fit: contain;
+  border-radius: 10px;
 }

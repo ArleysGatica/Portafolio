@@ -1,10 +1,8 @@
 .header {
-  width: 98.8vw;
-  height: 9vh;
-  z-index: 100;
   background: radial-gradient(circle, #5151e5 0%, #130cb7 100%);
-  position: fixed;
+  position: sticky;
   top: 0;
+  z-index: 30;
 }
 .Container-header {
   max-width: 85%;
