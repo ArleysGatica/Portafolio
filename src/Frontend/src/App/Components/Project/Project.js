@@ -1,7 +1,7 @@
 import React from 'react';
-import { Projectsview } from './Project';
+import ProjectsView from "./ProjectView";
 
-export const ProjectC = () => {
+export function ProjectC() {
 
   const data = [
     "Helsinki, Finland",
@@ -11,7 +11,7 @@ export const ProjectC = () => {
   ];
 
   return (
-    <Projectsview data={data} />
+    <ProjectsView data={data} />
   );
-}
+};
 
