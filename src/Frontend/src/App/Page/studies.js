@@ -9,4 +9,4 @@ const StudiesPage = () => {
     </Page>
   )
 }
-export default StudiesPage
+export default StudiesPage;
