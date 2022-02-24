@@ -9,7 +9,6 @@ export const Projectsview = props => {
       <div className="Container-project">
         <div className="Project-title">
           <h1>{data}</h1>
-
         </div>
       </div>
     </>

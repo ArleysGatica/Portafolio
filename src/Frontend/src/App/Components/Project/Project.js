@@ -11,9 +11,7 @@ export const ProjectC = () => {
   ];
 
   return (
-    <div>
-      <Projectsview data={data} />
-    </div>
+    <Projectsview data={data} />
   );
 }
 
