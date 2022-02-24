@@ -1,10 +1,10 @@
-import React from 'react';
-import './Project.css';
+import React from 'react'
+import './Project.css'
 
 export const ProjectsView = (props) => {
-  const { data } = props;
+  const { data } = props
 
-  console.log({ data });
+  console.log(data)
   return (
     <>
       <div className="Container-project">
@@ -13,5 +13,5 @@ export const ProjectsView = (props) => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}

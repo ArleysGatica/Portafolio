@@ -1,4 +1,5 @@
 .header {
+  height: 8vh;
   background: radial-gradient(circle, #5151e5 0%, #130cb7 100%);
   position: sticky;
   top: 0;
@@ -11,30 +12,21 @@
   justify-content: flex-end;
 }
 
-.nav ul {
+.nav {
+  height: 100%;
+  width: 30%;
   display: flex;
-  list-style: none;
-  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav ul li {
-  list-style: none;
-  margin: 0px 20px;
-  font-weight: bold;
-  cursor: pointer;
-  font-size: 1.6rem;
-  text-decoration: none;
-}
-
-.nav ul li a {
-  text-decoration: none;
-  color: white;
-}
-
-a {
+.nav > a {
   text-decoration-line: none;
+  color: white;
+  font-family: Raleway;
+  font-weight: bold;
 }
 
-.nav ul li a:hover {
+.nav > a:hover {
   border-bottom: rgb(253, 253, 253) 3px solid;
 }
