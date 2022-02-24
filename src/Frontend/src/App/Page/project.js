@@ -1,12 +1,12 @@
 import React from 'react'
 import Page from './Page'
-import { ProjectsView } from '../Components/Project/ProjectView'
+import { ProjectC } from '../Components/Project/Project'
 
 const ProjectsPage = () => {
   return (
     <Page>
-      <ProjectsView />
+      <ProjectC />
     </Page>
   )
 }
-export default ProjectsPage;
+export default ProjectsPage
