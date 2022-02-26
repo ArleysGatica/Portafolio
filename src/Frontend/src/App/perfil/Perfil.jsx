@@ -1,10 +1,8 @@
 import React from 'react'
-import yo from '../Images/yo2.jpg'
-import github from '../Images/github.png'
-import linkedin from '../Images/linkedin.png'
-import gmail from '../Images/gmail.png'
-import whatsapp from '../Images/whatsapp.png'
 import './Perfil.css'
+import { BsGithub, BsWhatsapp, BsLinkedin } from 'react-icons/bs'
+import { SiGmail } from 'react-icons/si'
+import yo from '../Images/yo2.jpg'
 
 export const Perfil = () => {
   return (
@@ -25,21 +23,21 @@ export const Perfil = () => {
             href="https://github.com/ArleysGatica"
             target="_blank"
           >
-            <img src={github} alt="Github" />
+            <BsGithub className='Git' />
           </a>
           <a
             rel="noreferrer"
             href="mailto:gatica.arleys16@gmail.com?subject=Desde_Portafolio&body=Hola%20Arleys%20Gatica%20"
             target="_blank"
           >
-            <img src={gmail} alt="" />
+            <SiGmail className='Gmail' />
           </a>
-          <a
+          <a className='whatsapp'
             rel="noreferrer"
             href="https://www.linkedin.com/in/arleys-gatica16/"
             target="_blank"
           >
-            <img src={linkedin} alt="" />
+            <BsLinkedin className='linkedin' />
           </a>
         </div>
         <a
@@ -48,7 +46,7 @@ export const Perfil = () => {
           href="https://api.whatsapp.com/send?phone=+505 8634-9918"
           target="_blank"
         >
-          <img src={whatsapp} alt="" />
+          <BsWhatsapp className='What' />
           <p>+505 8634-9918</p>
         </a>
       </div>
