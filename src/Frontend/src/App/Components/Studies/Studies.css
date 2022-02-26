@@ -9,7 +9,7 @@
 
 .Studies-Container {
   columns: 3 220px;
-  column-gap: 25px;
+  column-gap: 30px;
   width: 85%;
   margin: 0 auto;
 }
@@ -20,4 +20,8 @@
   display: block;
   object-fit: contain;
   border-radius: 10px;
+}
+
+.Studies-Container img:hover {
+  transform: scale(1.1);
 }

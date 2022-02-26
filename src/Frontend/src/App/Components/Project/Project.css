@@ -1,0 +1,37 @@
+.container-print {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35%, auto));
+  grid-template-rows: repeat(auto-fit, minmax(-10%, auto));
+  row-gap: 1.5rem;
+  justify-items: center;
+  width: 100%;
+  height: 720px;
+}
+
+.Container-project {
+  background: rgba(255, 255, 255, 0.377);
+  border-radius: 20px;
+  padding: 20px;
+  width: 550px;
+  height: 340px;
+}
+
+.Container-project-imgs img {
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background: rgba(255, 255, 255, 0.507);
+  border-radius: 12px;
+  height: 24px;
+  width: 80px;
+  font-size: 18px;
+  font-weight: wo;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  color: white;
+}

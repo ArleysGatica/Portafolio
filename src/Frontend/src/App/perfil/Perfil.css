@@ -30,6 +30,7 @@
   justify-content: center;
   width: 100%;
   align-items: baseline;
+  margin-top: 10px;
 }
 
 .Container-Redes-info img {
@@ -59,11 +60,12 @@
   width: 50%;
   height: 12%;
   display: flex;
-  bottom: -25px;
+  bottom: 20px;
   justify-content: space-evenly;
   align-items: center;
   font-size: 20px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .Container-whatsApp img {

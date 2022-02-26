@@ -32,11 +32,11 @@
 }
 
 .Container-footer-whatsapp button {
-  color: black;
+  color: white;
   font-weight: bold;
   height: 41px;
   width: 140px;
-  background: white;
+  background: #6b73ff;
   border-radius: 5px;
   cursor: pointer;
   border: none;
@@ -58,7 +58,7 @@
 
 .Container-pie {
   width: 100%;
-  height: 100%;
+  height: 23px;
   display: flex;
   justify-content: center;
   font-size: 1rem;

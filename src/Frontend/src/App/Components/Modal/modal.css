@@ -26,7 +26,6 @@
   width: 100vw;
   background-color: white;
   overflow-y: auto;
-  white-space: nowrap;
 }
 .modal-change {
   position: absolute;

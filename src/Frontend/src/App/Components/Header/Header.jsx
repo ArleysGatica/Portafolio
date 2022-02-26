@@ -8,10 +8,10 @@ export const Header = () => {
       <header className="header">
         <div className="Container-header">
           <nav className="nav">
-            <NavLink to="/Studies">Home</NavLink>
+            <a href="./" >Home</a>
             <NavLink to="/Studies">Estudios</NavLink>
             <NavLink to="/Projects">Proyectos</NavLink>
-            <NavLink to="/About">About</NavLink>
+            <a href="#Sobremi" > Sobre mi</a>
           </nav>
         </div>
       </header>
