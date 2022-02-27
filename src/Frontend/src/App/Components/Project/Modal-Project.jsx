@@ -1,4 +1,5 @@
 import React from 'react'
+import { serviImages } from '../Services';
 import './Modal.css'
 
 export const ModalProject = (props) => {
@@ -18,6 +19,7 @@ export const ModalProject = (props) => {
         </div>
         <div className='modal-imgs'>
           <img src={img} alt="" />
+
         </div>
       </div>
       <div className='modal-text'>

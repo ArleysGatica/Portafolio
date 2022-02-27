@@ -5,19 +5,18 @@ import { FaNodeJs, FaReact } from "react-icons/fa";
 import { SiCsharp, SiFigma, SiVisualstudiocode } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
 
-
 export const Skllis = () => {
-  const skllisimages = require.context('../../Images', true)
+  const skllisimages = require.context('../../Images/project', true)
   return (
     <>
       <div className="Container-title-Skllis">
         <h1 >Proyectos</h1>
       </div>
       <div className="Skllis-Container">
-        <img src={skllisimages('./react-pr.png')} alt="" />
-        <img src={skllisimages('./react-pr.png')} alt="" />
-        <img src={skllisimages('./react-pr.png')} alt="" />
-        <img src={skllisimages('./react-pr.png')} alt="" />
+        <img src={skllisimages('./tiendita.png')} alt="" />
+        <img src={skllisimages('./devP.png')} alt="" />
+        <img src={skllisimages('./Medicall.png')} alt="" />
+        <img src={skllisimages('./ame.png')} alt="" />
       </div>
       <div className="Container-info">
         <h1 id='dev'>Conocimientos</h1>

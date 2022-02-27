@@ -5,6 +5,8 @@ import Medicall2 from '../Images/project/Medicall2.png'
 import tiendita from '../Images/project/tiendita.png'
 import tiendita2 from '../Images/project/tiendita2.png'
 import tiendita3 from '../Images/project/tiendita3.png'
+import ame from '../Images/project/ame.png'
+import Ame2 from '../Images/project/Ame2.png'
 
 export const serviImages = (images) => {
   const status = {
@@ -15,6 +17,8 @@ export const serviImages = (images) => {
     tiendita: tiendita,
     tiendita2: tiendita2,
     tiendita3: tiendita3,
+    ame: ame,
+    Ame2: Ame2,
   }
   return status[images]
 }

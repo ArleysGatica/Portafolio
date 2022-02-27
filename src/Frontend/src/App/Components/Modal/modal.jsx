@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import React from "react";
 import "./modal.css";
 
 export const Modal = ({ children, isOpen, CloseModal }) => {

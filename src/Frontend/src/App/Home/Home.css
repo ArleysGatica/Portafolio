@@ -10,11 +10,12 @@
 }
 
 .info-text {
-  width: 75%;
-  height: 210px;
+  width: 77%;
+  height: 240px;
   margin: auto;
   margin-top: 35px;
   box-shadow: 0px 0px 10px #000;
+  padding: 10px;
 }
 
 .info-text span {
