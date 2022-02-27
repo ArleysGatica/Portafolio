@@ -51,10 +51,10 @@
   padding: 12px;
 }
 
-.conocimiento img {
-  width: 100px;
-  object-fit: cover;
-  border-radius: 15px;
+.Icons {
+  color: white;
+  width: 10vmin;
+  height: 10vmin;
 }
 
 .Contianer-left-info {
@@ -70,10 +70,11 @@
   align-content: center;
 }
 
-.Dev-1 img {
-  width: 100px;
-  object-fit: cover;
-  border-radius: 15px;
+.Icons2 {
+  color: white;
+  width: 10vmin;
+  height: 10vmin;
+  margin-top: 10px;
 }
 
 .h4 {
@@ -97,13 +98,13 @@
   transform: scale(1.2);
 }
 
-.conocimiento img:hover + .h4 {
+.Icons:hover + .h4 {
   opacity: 1;
   transform: rotate3d(9px);
   transform: scale(1.2);
 }
 
-.Dev-1 img:hover + .h4 {
+.Icons2:hover + .h4 {
   opacity: 1;
   transform: rotate3d(9px);
   transform: scale(1.2);

@@ -27,33 +27,32 @@
   margin-bottom: 10px;
 }
 
-#sobremi {
-  transition: all 0.5s;
-}
-
 .Container-footer-whatsapp button {
   color: white;
-  font-weight: bold;
   height: 41px;
-  width: 140px;
+  width: 150px;
   background: #6b73ff;
   border-radius: 5px;
   cursor: pointer;
   border: none;
+  text-decoration: none;
+  align-items: center;
 }
 
 .Container-footer-red {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
   width: 25%;
   height: 100%;
   padding: 10px;
+  object-fit: contain;
 }
 
-.Container-footer-red img {
-  width: 80%;
-  height: 50%;
+.IconsF {
+  color: white;
+  width: 5vmin;
+  height: 5vmin;
+  object-fit: cover;
 }
 
 .Container-pie {

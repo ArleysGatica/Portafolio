@@ -12,9 +12,7 @@ export const ProjectCard = (props) => {
     img,
   } = props;
 
-
   const [isOpen, OpenModal, CloseModal] = useModal(false);
-
   return (
     <>
       <div className="Container-project">
@@ -23,8 +21,6 @@ export const ProjectCard = (props) => {
         </div>
         <div className='Container-project-imgs'>
           <img src={img} alt="" />
-
-
         </div>
         <button onClick={OpenModal}>Info</button >
         <Modal isOpen={isOpen} CloseModal={CloseModal}>

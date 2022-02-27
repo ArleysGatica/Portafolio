@@ -1,8 +1,9 @@
 import React from "react";
 import "./Footer.css";
+import { IoLogoInstagram, IoLogoFacebook } from "react-icons/io";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 export const Footer = () => {
-  const Footerimages = require.context('../../Images', true)
   return (
     <footer className="footer">
       <div className="container">
@@ -22,31 +23,29 @@ export const Footer = () => {
             href="https://www.facebook.com/arleys.gatica.34"
             target="_blank"
           >
-            <img src={Footerimages('./facebook.png')} alt="" />
+            < IoLogoFacebook className="IconsF" />
           </a>
           <a
             rel="noreferrer"
             href="https://www.linkedin.com/in/arleys-gatica16/"
             target="_blank"
           >
-            <img src={Footerimages('./linkedin.png')} alt="" />
+            <BsLinkedin className="IconsF" />
           </a>
           <a
             rel="noreferrer"
             href="https://github.com/ArleysGatica"
             target="_blank"
           >
-            <img src={Footerimages('./github.png')} alt="Github" />
+            <BsGithub className="IconsF" />
           </a>
           <a
             rel="noreferrer"
             href="https://www.instagram.com/arleyssss_16/"
             target="_blank"
           >
-            <img src={Footerimages('./instagram.png')} alt="" />
+            <IoLogoInstagram className="IconsF" />
           </a>
-
-
         </div>
       </div>
       <div className="Container-pie">

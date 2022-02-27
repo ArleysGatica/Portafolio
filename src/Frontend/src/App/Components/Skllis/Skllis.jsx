@@ -1,5 +1,10 @@
 import React from "react";
 import "./Skllis.css";
+import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoNpm } from "react-icons/io";
+import { FaNodeJs, FaReact } from "react-icons/fa";
+import { SiCsharp, SiFigma, SiVisualstudiocode } from "react-icons/si";
+import { BsGithub } from "react-icons/bs";
+
 
 export const Skllis = () => {
   const skllisimages = require.context('../../Images', true)
@@ -13,10 +18,6 @@ export const Skllis = () => {
         <img src={skllisimages('./react-pr.png')} alt="" />
         <img src={skllisimages('./react-pr.png')} alt="" />
         <img src={skllisimages('./react-pr.png')} alt="" />
-        <img src={skllisimages('./react-pr.png')} alt="" />
-        <img src={skllisimages('./react-pr.png')} alt="" />
-        <img src={skllisimages('./react-pr.png')} alt="" />
-        <img src={skllisimages('./react-pr.png')} alt="" />
       </div>
       <div className="Container-info">
         <h1 id='dev'>Conocimientos</h1>
@@ -24,46 +25,46 @@ export const Skllis = () => {
       </div>
       <div className="Container-main">
         <div className="Container-left">
-          <div className="conocimiento">
-            <img src={skllisimages('./c-sharp.png')} alt="" />
+          <div >
+            <SiCsharp className="Icons" />
             <h4 className="h4">C-Sharp</h4>
           </div>
-          <div className="conocimiento">
-            <img src={skllisimages('./reactb.png')} alt="" />
+          <div>
+            <FaReact className="Icons" />
             <h4 className="h4">React</h4>
           </div>
-          <div className="conocimiento">
-            <img src={skllisimages('./node.png')} alt="" />
+          <div>
+            <FaNodeJs className="Icons" />
             <h4 className="h4">Node</h4>
           </div>
-          <div className="conocimiento">
-            <img src={skllisimages('./html-5.png')} alt="" />
+          <div>
+            <IoLogoHtml5 className="Icons" />
             <h4 className="h4">HTML5</h4>
           </div>
-          <div className="conocimiento">
-            <img src={skllisimages('./css-3.png')} alt="" />
+          <div>
+            <IoLogoCss3 className="Icons" />
             <h4 className="h4">CSS3</h4>
           </div>
-          <div className="conocimiento">
-            <img src={skllisimages('./js.png')} alt="" />
+          <div>
+            <IoLogoJavascript className="Icons" />
             <h4 className="h4">JavaScript</h4>
           </div>
         </div>
         <div className="Container-right">
-          <div className="Dev-1">
-            <img src={skllisimages('./fgit.png')} alt="" />
+          <div>
+            <BsGithub className="Icons2" />
             <h4 className="h4">Git</h4>
           </div>
-          <div className="Dev-1">
-            <img src={skllisimages('./visualcode.png')} alt="" />
+          <div>
+            <SiVisualstudiocode className="Icons2" />
             <h4 className="h4">Visual Code</h4>
           </div>
-          <div className="Dev-1">
-            <img src={skllisimages('./figma.png')} alt="" />
+          <div>
+            <SiFigma className="Icons2" />
             <h4 className="h4">Figma</h4>
           </div>
-          <div className="Dev-1">
-            <img src={skllisimages('./npm.png')} alt="" />
+          <div>
+            <IoLogoNpm className="Icons2" />
             <h4 className="h4">NPM</h4>
           </div>
         </div>

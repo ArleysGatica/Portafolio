@@ -1,3 +1,12 @@
+.titulo {
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
 .container-print {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35%, auto));
@@ -31,7 +40,7 @@ button {
   font-size: 18px;
   font-weight: wo;
   font-weight: bold;
-  display: flex;
+
   justify-content: center;
   color: white;
 }
