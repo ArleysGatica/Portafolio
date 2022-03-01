@@ -3,7 +3,7 @@ import './Project.css'
 import { ProjectCard } from './ProjectCard'
 
 export const ProjectsView = (props) => {
-  const { arrayProjects } = props
+  const { obtenerDatos } = props
 
   return (
     <>
@@ -13,7 +13,7 @@ export const ProjectsView = (props) => {
         </h1>
       </div>
       <div className='container-print'>
-        {arrayProjects.map((project, index) => (
+        {obtenerDatos.map((project, index) => (
           <ProjectCard key={index}
             name={project.name}
             info={project.info}
