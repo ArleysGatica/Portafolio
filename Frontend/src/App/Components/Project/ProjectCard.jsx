@@ -4,13 +4,7 @@ import { ModalProject } from './Modal-Project'
 import { useModal } from '../Hook/hook'
 import { serviImages } from '../Services'
 
-export const ProjectCard = (props) => {
-  const {
-    name,
-    info,
-    id,
-    img,
-  } = props;
+export const ProjectCard = ({ name, info }) => {
 
   const [isOpen, OpenModal, CloseModal] = useModal(false);
   return (
@@ -20,15 +14,14 @@ export const ProjectCard = (props) => {
           <h1>{name}</h1>
         </div>
         <div className='Container-project-imgs'>
-          <img src={img} alt="" />
+
         </div>
         <button onClick={OpenModal}>Info</button >
         <Modal isOpen={isOpen} CloseModal={CloseModal}>
           <ModalProject
             name={name}
             info={info}
-            id={id}
-            img={img}
+
           />
         </Modal>
       </div>

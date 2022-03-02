@@ -1,11 +1,11 @@
 import React from 'react'
 import Page from './Page'
-import { ProjectC } from '../Components/Project/Project'
+import Prueba from '../prueba'
 
 const ProjectsPage = () => {
   return (
     <Page>
-      <ProjectC />
+      <Prueba />
     </Page>
   )
 }

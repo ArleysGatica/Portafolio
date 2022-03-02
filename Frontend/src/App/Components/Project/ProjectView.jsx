@@ -2,8 +2,7 @@ import React from 'react'
 import './Project.css'
 import { ProjectCard } from './ProjectCard'
 
-export const ProjectsView = (props) => {
-  const { obtenerDatos } = props
+export const ProjectsView = ({ Datos }) => {
 
   return (
     <>
@@ -13,16 +12,13 @@ export const ProjectsView = (props) => {
         </h1>
       </div>
       <div className='container-print'>
-        {obtenerDatos.map((project, index) => (
+        {Datos.map((project, index) => (
           <ProjectCard key={index}
             name={project.name}
             info={project.info}
-            id={project.id}
-            img={project.img}
           />
         ))}
       </div>
-
     </>
   )
 }
