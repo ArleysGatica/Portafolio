@@ -1,21 +1,52 @@
-.wraper {
-  position: relative;
-  white-space: nowrap;
-  display: inline-block;
-  -webkit-animation: slidein 60s linear infinite;
-  animation: slidein 60s linear infinite;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+.padre {
+  background: yellowgreen;
+  width: 90%;
+  height: 100%;
+  display: flex;
 }
 
-.Skllis-Container img {
-  width: 30%;
-  object-fit: contain;
-  transition: transform 0.5s ease;
-  border-radius: 12px;
+.contenedor {
+  width: 10%;
+  gap: 15px;
+  margin: 30px auto;
+  list-style: none;
+  width: 2800px;
+  display: flex;
+  animation: slide infinite alternate;
 }
 
-.Skllis-Container img:hover {
+.contenedor img {
+  width: 50%;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0px;
+  }
+  20% {
+    margin-left: 0px;
+  }
+  25% {
+    margin-left: -700px;
+  }
+  45% {
+    margin-left: -700px;
+  }
+  50% {
+    margin-left: -1400px;
+  }
+  70% {
+    margin-left: -1400px;
+  }
+  75% {
+    margin-left: -2100px;
+  }
+  95% {
+    margin-left: -2100px;
+  }
+}
+
+.contenedor img:hover {
   transform: scale(0.9);
 }
 

@@ -9,15 +9,14 @@ export const SkllisView = ({ holis }) => {
       <div className="Container-title-Skllis">
         <h1 >Proyectos</h1>
       </div>
-      <div className="wraper">
-        <div className="Skllis-Container">
+      <div className="padre">
+        <div className="contenedor">
           <img src={skllisimages('./tiendita.png')} alt="" />
-          <img src={skllisimages('./devP.png')} alt="" />
-          <img src={skllisimages('./Medicall.png')} alt="" />
-          <img src={skllisimages('./ame.png')} alt="" />
-          <img src={skllisimages('./ame.png')} alt="" />
-          <img src={skllisimages('./ame.png')} alt="" />
-          <img src={skllisimages('./ame.png')} alt="" />
+          <img src={skllisimages('./tiendita.png')} alt="" />
+          <img src={skllisimages('./tiendita.png')} alt="" />
+          <img src={skllisimages('./tiendita.png')} alt="" />
+          <img src={skllisimages('./tiendita.png')} alt="" />
+          <img src={skllisimages('./tiendita.png')} alt="" />
         </div>
       </div>
       <div className="Container-info">
