@@ -3,8 +3,7 @@ import { Modal } from '../Modal/modal'
 import { ModalProject } from './Modal-Project'
 import { useModal } from '../Hook/hook'
 
-export const ProjectCard = ({ name, info, img }) => {
-  console.log(img);
+export const ProjectCard = ({ name, info, images }) => {
 
   const [isOpen, OpenModal, CloseModal] = useModal(false);
   return (
@@ -14,14 +13,14 @@ export const ProjectCard = ({ name, info, img }) => {
           <h1>{name}</h1>
         </div>
         <div className='Container-project-imgs'>
-          <img src={img.length && img[0].img} alt="" />
+          <img src={images} alt="" />
         </div>
         <button onClick={OpenModal}>Info</button >
         <Modal isOpen={isOpen} CloseModal={CloseModal}>
           <ModalProject
             name={name}
             info={info}
-            img={img.length && img[0].img}
+            img={images}
           />
         </Modal>
       </div>

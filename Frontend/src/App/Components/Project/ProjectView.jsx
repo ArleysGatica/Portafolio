@@ -2,7 +2,8 @@ import React from 'react'
 import './Project.css'
 import { ProjectCard } from './ProjectCard'
 
-export const ProjectsView = ({ Datos, img }) => {
+export const ProjectsView = ({ Datos }) => {
+  console.log("🚀 ", { Datos })
 
   return (
     <>
@@ -16,7 +17,8 @@ export const ProjectsView = ({ Datos, img }) => {
           <ProjectCard key={index}
             name={project.name}
             info={project.info}
-            img={img}
+            img={project.images}
+            {...project}
           />
         ))}
       </div>
