@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import { Perfil } from '../perfil/Perfil';
-import { Skllis } from '../Components/Skllis/Skllis';
+import SkllisJS from '../Components/Skllis/Skllis';
 import { Footer } from '../Components/Footer/Footer';
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
         <Perfil />
       </div>
       <div className='Home-Container-Skllis'>
-        <Skllis />
+        <SkllisJS />
       </div>
       <div className='info-text'>
         <span>

@@ -5,7 +5,8 @@ import { FaNodeJs, FaReact } from "react-icons/fa";
 import { SiCsharp, SiFigma, SiVisualstudiocode } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
 
-export const Skllis = () => {
+export const SkllisView = ({ holis }) => {
+  console.log("🚀 ", holis)
 
   const skllisimages = require.context('../../Images/project', true)
   return (

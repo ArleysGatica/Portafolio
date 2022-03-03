@@ -1,6 +1,6 @@
 import React from 'react'
 import Page from './Page'
-import Prueba from '../prueba'
+import Prueba from '../Components/Project/Project'
 
 const ProjectsPage = () => {
   return (
