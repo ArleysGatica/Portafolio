@@ -6,6 +6,7 @@ import { SiCsharp, SiFigma, SiVisualstudiocode } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
 
 export const Skllis = () => {
+
   const skllisimages = require.context('../../Images/project', true)
   return (
     <>
