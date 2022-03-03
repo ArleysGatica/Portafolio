@@ -22,16 +22,16 @@ const SkllisJS = () => {
       title: 'Javascript'
     },
     {
-      icon: <IoLogoNpm />,
-      title: 'NPM'
+      icon: <FaReact />,
+      title: 'React'
     },
     {
       icon: <FaNodeJs />,
       title: 'NodeJS'
     },
     {
-      icon: <FaReact />,
-      title: 'React'
+      icon: <IoLogoNpm />,
+      title: 'NPM'
     },
     {
       icon: <SiCsharp />,
@@ -43,7 +43,7 @@ const SkllisJS = () => {
     },
     {
       icon: <SiVisualstudiocode />,
-      title: 'Visual Studio Code'
+      title: 'Visual Studio'
     },
     {
       icon: <BsGithub />,
