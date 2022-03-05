@@ -15,8 +15,6 @@ export const SkllisView = ({ holis }) => {
           <img src={skllisimages('./tiendita.png')} alt="" />
           <img src={skllisimages('./tiendita.png')} alt="" />
           <img src={skllisimages('./tiendita.png')} alt="" />
-          <img src={skllisimages('./tiendita.png')} alt="" />
-          <img src={skllisimages('./tiendita.png')} alt="" />
         </div>
       </div>
       <div className="Container-info">

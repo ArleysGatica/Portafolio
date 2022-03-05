@@ -1,49 +1,20 @@
 .padre {
-  background: yellowgreen;
-  width: 90%;
-  height: 100%;
-  display: flex;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 5px;
 }
 
 .contenedor {
-  width: 10%;
   gap: 15px;
-  margin: 30px auto;
-  list-style: none;
-  width: 2800px;
+  width: 80.8%;
   display: flex;
-  animation: slide infinite alternate;
+  justify-content: space-between;
 }
 
 .contenedor img {
-  width: 50%;
-}
-
-@keyframes slide {
-  0% {
-    margin-left: 0px;
-  }
-  20% {
-    margin-left: 0px;
-  }
-  25% {
-    margin-left: -700px;
-  }
-  45% {
-    margin-left: -700px;
-  }
-  50% {
-    margin-left: -1400px;
-  }
-  70% {
-    margin-left: -1400px;
-  }
-  75% {
-    margin-left: -2100px;
-  }
-  95% {
-    margin-left: -2100px;
-  }
+  width: 30%;
+  border-radius: 12px;
 }
 
 .contenedor img:hover {
