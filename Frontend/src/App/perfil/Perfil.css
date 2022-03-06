@@ -86,3 +86,19 @@
   width: 5vmin;
   height: 5vmin;
 }
+
+@media screen and (max-width: 767px) {
+  .Container {
+    width: 90vw;
+    height: 55vh;
+  }
+
+  .Container-title {
+    font-size: 0.7rem;
+    padding: 5px;
+  }
+  .Container-whatsApp {
+    width: 60%;
+    height: 9%;
+  }
+}

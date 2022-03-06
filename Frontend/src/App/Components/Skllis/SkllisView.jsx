@@ -21,7 +21,7 @@ export const SkllisView = ({ holis }) => {
       </div>
       <div className="Container-main">
         <div className="Container-left">
-          {holis.map((holi, index) => {
+          {holis.map((holi) => {
             return (
               <div>
                 <div className="Icons" >

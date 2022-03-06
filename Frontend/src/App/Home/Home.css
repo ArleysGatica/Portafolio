@@ -25,3 +25,17 @@
   color: #fff;
   text-align-last: center;
 }
+
+@media screen and (max-width: 700px) {
+  .info-text {
+    width: 89%;
+    height: auto;
+    margin: auto;
+    box-shadow: 0px 0px 10px #000;
+    margin-top: 40px;
+  }
+
+  .info-text span {
+    font-size: 1.2rem;
+  }
+}

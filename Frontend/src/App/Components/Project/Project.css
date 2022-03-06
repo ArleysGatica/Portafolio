@@ -53,3 +53,17 @@ button:hover {
   background: rgba(160, 43, 43, 0.281);
   cursor: pointer;
 }
+
+@media screen and (max-width: 700px) {
+  .titulo {
+    width: 100%;
+  }
+
+  .container-print {
+    width: 100%;
+    display: grid;
+    background: yellowgreen;
+    grid-template-columns: repeat(auto-fit, minmax(35%, auto));
+    grid-template-rows: repeat(auto-fit, minmax(-10%, auto));
+  }
+}

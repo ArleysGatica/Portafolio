@@ -65,3 +65,14 @@
   color: white;
   background: radial-gradient(circle, #5151e5 0%, #130cb7 100%);
 }
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 90%;
+  }
+
+  .IconsF {
+    width: 9.5vw;
+    height: 7vh;
+  }
+}

@@ -25,3 +25,13 @@
 .Studies-Container img:hover {
   transform: scale(1.1);
 }
+
+@media screen and (max-width: 700px) {
+  .Studies-Container {
+    columns: 1;
+  }
+
+  .Container-title-Studies {
+    width: 100%;
+  }
+}

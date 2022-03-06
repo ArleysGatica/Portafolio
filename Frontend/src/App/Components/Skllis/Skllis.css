@@ -97,3 +97,27 @@
   transform: rotate3d(9px);
   transform: scale(1.2);
 }
+
+@media screen and (max-width: 700px) {
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+
+  .contenedor img {
+    width: 100%;
+  }
+
+  .Container-left {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .h4 {
+    font-size: 0.9rem;
+    width: 70px;
+    font-weight: bold;
+  }
+}
