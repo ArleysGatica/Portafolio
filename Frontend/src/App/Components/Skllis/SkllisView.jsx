@@ -1,7 +1,6 @@
 import React from "react";
 import "./Skllis.css";
 export const SkllisView = ({ holis }) => {
-  console.log("🚀 ", holis)
 
   const skllisimages = require.context('../../Images/project', true)
   return (
@@ -12,9 +11,9 @@ export const SkllisView = ({ holis }) => {
       <div className="padre">
         <div className="contenedor">
           <img src={skllisimages('./tiendita.png')} alt="" />
-          <img src={skllisimages('./tiendita.png')} alt="" />
-          <img src={skllisimages('./tiendita.png')} alt="" />
-          <img src={skllisimages('./tiendita.png')} alt="" />
+          <img src={skllisimages('./ame.png')} alt="" />
+          <img src={skllisimages('./devP.png')} alt="" />
+          <img src={skllisimages('./Medicall.png')} alt="" />
         </div>
       </div>
       <div className="Container-info">
