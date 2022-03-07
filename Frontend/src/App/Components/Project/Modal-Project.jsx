@@ -11,19 +11,21 @@ export const ModalProject = (props) => {
 
   return (
     <>
-      <div className='container-modal'>
-        <div className='titulo-modal'>
-          <h1>
-            {name}
-          </h1>
-        </div>
-        <div className='modal-imgs'>
-          <img src={img} alt="" />
+      <div className='modal-project'>
+        <div className='container-modal'>
+          <div className='titulo-modal'>
+            <h1>
+              {name}
+            </h1>
+          </div>
+          <div className='modal-imgs'>
+            <img src={img} alt="" />
 
+          </div>
         </div>
-      </div>
-      <div className='modal-text'>
-        <h1>{info}</h1>
+        <div className='modal-text'>
+          <h1>{info}</h1>
+        </div>
       </div>
     </>
   )

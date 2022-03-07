@@ -1,7 +1,7 @@
 .titulo {
   font-weight: bold;
   font-size: 1.7rem;
-  color: white;
+  color: whibte;
   display: flex;
   justify-content: center;
   width: 30%;
@@ -10,7 +10,6 @@
 .container-print {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35%, auto));
-  grid-template-rows: repeat(auto-fit, minmax(-10%, auto));
   row-gap: 1.5rem;
   justify-items: center;
   width: 100%;
@@ -60,10 +59,12 @@ button:hover {
   }
 
   .container-print {
-    width: 100%;
     display: grid;
-    background: yellowgreen;
-    grid-template-columns: repeat(auto-fit, minmax(35%, auto));
-    grid-template-rows: repeat(auto-fit, minmax(-10%, auto));
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .Container-project {
+    width: 100%;
+    height: 97%;
   }
 }
