@@ -14,10 +14,12 @@
 
 .nav {
   height: 100%;
-  width: 30%;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  gap: 25px;
 }
 
 .nav > a {
@@ -31,18 +33,52 @@
   border-bottom: rgb(253, 253, 253) 3px solid;
 }
 
-@media screen and (max-width: 700px) {
-  .header {
-    height: 10vh;
-  }
+button {
+  display: none;
+  cursor: pointer;
+  color: aliceblue;
+}
 
+@media screen and (max-width: 700px) {
   .Container-header {
     max-width: 100%;
   }
 
   .nav {
-    width: 100%;
     justify-content: space-around;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  button {
+    display: block;
+    cursor: pointer;
+  }
+
+  .HomeContainer__NavBar__Rigth {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 97%;
+    width: 100%;
+    margin-top: 7.5%;
+    align-items: center;
+    justify-content: center;
+    background: #000dffe5;
+    transition: 1s;
+    transform: translate(100%);
+    z-index: 100;
+    opacity: 0;
+    gap: 10px;
+  }
+  .HomeContainer__NavBar__Rigth.show {
+    transform: none;
+    opacity: 1;
+    transition-property: opacity, transform, -webkit-transform;
+    transition: 2s;
   }
 }
