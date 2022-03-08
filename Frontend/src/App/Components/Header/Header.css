@@ -33,10 +33,18 @@
   border-bottom: rgb(253, 253, 253) 3px solid;
 }
 
-button {
+.Container-header button {
   display: none;
   cursor: pointer;
-  color: aliceblue;
+  border: none;
+  background: rgba(255, 255, 255, 0.507);
+  border-radius: 12px;
+  height: 24px;
+  width: 80px;
+  font-size: 18px;
+  font-weight: bold;
+  justify-content: center;
+  color: rgb(219, 202, 202);
 }
 
 @media screen and (max-width: 700px) {
@@ -54,7 +62,7 @@ button {
     gap: 50px;
   }
 
-  button {
+  .Container-header button {
     display: block;
     cursor: pointer;
   }

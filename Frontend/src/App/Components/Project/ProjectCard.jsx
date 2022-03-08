@@ -15,7 +15,7 @@ export const ProjectCard = ({ name, info, images }) => {
         <div className='Container-project-imgs'>
           <img src={images} alt="" />
         </div>
-        <button onClick={OpenModal}>Info</button >
+        <button className='button' onClick={OpenModal}>Info</button >
         <Modal isOpen={isOpen} CloseModal={CloseModal}>
           <ModalProject
             name={name}

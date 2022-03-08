@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   width: 30%;
+  color: white;
 }
 
 .container-print {
@@ -22,6 +23,7 @@
   padding: 20px;
   width: 550px;
   height: 340px;
+  color: white;
 }
 
 .Container-project-imgs img {
@@ -35,7 +37,7 @@
   cursor: pointer;
 }
 
-button {
+.button {
   border: none;
   background: rgba(255, 255, 255, 0.507);
   border-radius: 12px;
@@ -48,7 +50,7 @@ button {
   color: white;
 }
 
-button:hover {
+.button:hover {
   background: rgba(160, 43, 43, 0.281);
   cursor: pointer;
 }

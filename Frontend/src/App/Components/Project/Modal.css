@@ -1,3 +1,11 @@
+.modal-project {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40%, auto));
+  row-gap: 1.5rem;
+  justify-items: center;
+  width: 100%;
+  height: 410px;
+}
 .container-modal {
   height: 55vh;
   display: flex;
@@ -24,7 +32,7 @@
 }
 
 .modal-imgs img {
-  width: 90%;
+  width: 95%;
   height: auto;
   border-radius: 12px;
 }
@@ -32,7 +40,7 @@
 .modal-text {
   font-size: 0.9rem;
   font-weight: bold;
-  width: 50%;
+  width: 70%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -41,7 +49,7 @@
 
 @media screen and (max-width: 700px) {
   .modal-project {
-    width: 100%;
+    width: 88%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,22 +60,19 @@
   }
 
   .titulo-modal {
-    width: 100%;
-    font-size: 0.7rem;
-    margin-top: 55px;
-    justify-content: center;
     display: flex;
     align-self: center;
+    color: white;
+    margin-top: 48%;
+    width: 300px;
   }
 
   .modal-text {
-    width: 80%;
-    font-size: 0.4rem;
-    margin-top: -18%;
+    width: 88%;
+    font-size: 10px;
   }
 
   .modal-imgs img {
     width: 100%;
-    margin-top: -20%;
   }
 }
