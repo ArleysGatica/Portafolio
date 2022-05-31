@@ -1,5 +1,4 @@
 import React from 'react'
-import { serviImages } from '../Services';
 import './Modal.css'
 
 export const ModalProject = (props) => {
